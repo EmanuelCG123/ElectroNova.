@@ -109,12 +109,12 @@ y para finalizar podemos cerrar secion desde siendo admin o cliente ya dependien
 
 | Concepto | Clase / método donde se aplica |
 |----------|-------------------------------|
-| Herencia |Administrador y Cliente heredan de Usuario |Permite reutilizar atributos y métodos de una clase base.
-| Encapsulación |Uso de atributos privados y métodos getStock(), getId() getCantidad() en clases como Producto e ItemCarrito|Protege los datos usando atributos privados y acceso mediante getters/setters 
-| Polimorfismo |Uso de Usuario usuarioActual permitiendo almacenar objetos Administrador o Cliente |Una variable puede comportarse como distintos tipos de objetos.
-| Abstracción |Clase Usuario representando características generales de cualquier usuario |Se representan solo las características importantes del sistema.
-| Colecciones |Uso de List<Producto> y List<ItemCarrito> |Se usan listas dinámicas para almacenar objetos.
-| Excepciones |Manejo implícito con validaciones como if (p != null) y control de stock; se puede mejorar usando try-catch para Scanner |Aunque no tienes try-catch, ya haces validaciones preventivas
+| Herencia |Administrador y Cliente heredan de Usuario / Permite reutilizar atributos y métodos de una clase base.|
+| Encapsulación |Uso de atributos privados y métodos getStock(), getId() getCantidad() en clases como Producto e ItemCarrito/ Protege los datos usando atributos privados y acceso mediante getters/setters |
+| Polimorfismo |Uso de Usuario usuarioActual permitiendo almacenar objetos Administrador o Cliente / Una variable puede comportarse como distintos tipos de objetos. |
+| Abstracción |Clase Usuario representando características generales de cualquier usuario / Se representan solo las características importantes del sistema.|
+| Colecciones |Uso de List<Producto> y List<ItemCarrito> / Se usan listas dinámicas para almacenar objetos. |
+| Excepciones |Manejo implícito con validaciones como if (p != null) y control de stock; se puede mejorar usando try-catch para Scanner /Aunque no tienes try-catch, ya haces validaciones preventivas |
 
 ---
 
